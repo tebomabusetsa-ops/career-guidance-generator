@@ -1,0 +1,28 @@
+h1 {
+    color: brown;
+}
+p {
+    color: #777;
+    }
+    h2 {
+        color: #8B6B61;
+        font-size: large;
+    }
+   #career-results {
+    background-color: bisque;
+    min-height: 100px;
+    margin-bottom: 30px;
+   }
+   form input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+   }
+   input[type="submit"] {
+    background-color: #777;
+    color: white;
+    border: none;
+      }
+      input[type="text"] {
+        border: 1px solid black;
+      }
