@@ -12,7 +12,7 @@ p {
     background-color: bisque;
     min-height: 100px;
     margin-bottom: 30px;
-    border: brown;
+    border: 1px solid brown;
    }
    form input {
     padding: 10px;
