@@ -12,7 +12,7 @@ button.style.backgroundColor = "brown";
 careerResults.innerHTML = "Generating advice💡...";
   let apiKey = "4a80febobcebc8bf8513ctfac0a134d1"
 
- let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${userGoal}&context=Give concise career guidance. Use a title, a short introduction, and exactly 3 numbered sections with short points. Focus only on the most important advice. Avoid long explanations. Format using HTML headings, paragraphs, and lists. Do not use Markdown.&key=${apiKey}`;
+ let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${userGoal}&context=Give concise career guidance. Use a title, a short introduction, and exactly 4 numbered sections with short points. Focus only on the most important advice. Avoid long explanations. Format using HTML headings, paragraphs, and lists. Do not use Markdown.&key=${apiKey}`;
 
   axios.get(apiUrl)
     .then(function(response) {
